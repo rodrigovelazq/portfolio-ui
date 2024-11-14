@@ -1,4 +1,3 @@
-import { useContext } from 'react';
 import ProjectSingle from './ProjectSingle';
 import { projectsData } from '../../data/projects';
 

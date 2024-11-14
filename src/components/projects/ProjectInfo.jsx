@@ -1,4 +1,4 @@
-const ProjectInfo = ({projectInfo}) => {
+const ProjectInfo = ({ projectInfo }) => {
 
 	return (
 		<div className="block sm:flex gap-0 sm:gap-10 mt-14">
@@ -9,30 +9,39 @@ const ProjectInfo = ({projectInfo}) => {
 						{projectInfo.ClientHeading}
 					</p>
 					<ul className="leading-loose">
-						{projectInfo.CompanyInfo.map(
-							(info) => {
-								return (
-									<li
-										className="font-general-regular text-ternary-dark dark:text-ternary-light"
-										key={info.id}
-									>
-										<span>{info.title}: </span>
-										<a
-											href="https://rodrigovelazquez.me"
-											className={
-												info.title === 'Website' ||
-												info.title === 'Phone'
-													? 'hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300'
-													: ''
-											}
-											aria-label="Project Website and Phone"
-										>
-											{info.details}
-										</a>
-									</li>
-								);
+						{projectInfo.CompanyInfo.map((info) => {
+							let href;
+							if (info.title === 'Phone') {
+								href = `tel:${info.details}`;
+							} else if (info.title === 'Website') {
+								href = info.details;
+							} else if (info.title === 'Email') {
+								href = `mailto:${info.details}`;
+							} else {
+								href = '#';
 							}
-						)}
+
+							return (
+								<li
+									className="font-general-regular text-ternary-dark dark:text-ternary-light"
+									key={info.id}
+								>
+									<span>{info.title}: </span>
+									<a
+										href={href}
+										className={
+											['Website', 'Phone', 'Email'].includes(info.title)
+												? 'hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300'
+												: ''
+										}
+										aria-label={`${info.title} link`}
+									>
+										{info.details}
+									</a>
+								</li>
+							);
+						})}
+
 					</ul>
 				</div>
 
