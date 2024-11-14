@@ -1,7 +1,6 @@
 import WebImage1 from '../images/web-project-1.jpg';
 import WebImage2 from '../images/web-project-2.jpg';
 import UIImage1 from '../images/ui-project-1.jpg';
-import UIImage2 from '../images/ui-project-2.jpg';
 import SICCA01 from '../images/sicca/sicca01.png';
 import SICCA02 from '../images/sicca/sicca02.png';
 import CICEAMSO01 from '../images/ciceamso/ciceamso01.png';
