@@ -1,4 +1,4 @@
-import { FiClock, FiTag } from 'react-icons/fi';
+import { FiClock } from 'react-icons/fi';
 
 const ProjectSingleHeader = ({ projectHeader }) => {
 
