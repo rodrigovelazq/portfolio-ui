@@ -57,32 +57,6 @@ const ProjectInfo = ({projectInfo}) => {
 						)}
 					</p>
 				</div>
-
-				{/* Single project social sharing */}
-				<div>
-					<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
-						{projectInfo.SocialSharingHeading}
-					</p>
-					<div className="flex items-center gap-3 mt-5">
-						{projectInfo.SocialSharing.map(
-							(social) => {
-								return (
-									<a
-										key={social.id}
-										href={social.url}
-										target="__blank"
-										aria-label="Share Project"
-										className="bg-ternary-light dark:bg-ternary-dark text-gray-400 hover:text-primary-dark dark:hover:text-primary-light p-2 rounded-lg shadow-sm duration-500"
-									>
-										<span className="text-lg lg:text-2xl">
-											{social.icon}
-										</span>
-									</a>
-								);
-							}
-						)}
-					</div>
-				</div>
 			</div>
 
 			{/*  Single project right section */}

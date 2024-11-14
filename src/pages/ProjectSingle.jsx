@@ -2,7 +2,6 @@ import { useParams } from 'react-router-dom';
 import ProjectGallery from '../components/projects/ProjectGallery';
 import ProjectHeader from '../components/projects/ProjectHeader';
 import ProjectInfo from '../components/projects/ProjectInfo';
-import ProjectRelatedProjects from '../components/projects/ProjectRelatedProjects';
 import { motion } from 'framer-motion';
 import { projectsData } from '../data/projects';
 
@@ -33,9 +32,6 @@ const ProjectSingle = () => {
 				/>
 				<ProjectInfo
 					projectInfo={project.ProjectInfo}
-				/>
-				<ProjectRelatedProjects
-					relatedProject={project.RelatedProject}
 				/>
 			</motion.div>
 		);

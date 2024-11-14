@@ -5,14 +5,6 @@ import MobileImage2 from '../images/mobile-project-2.jpg';
 import UIImage1 from '../images/ui-project-1.jpg';
 import UIImage2 from '../images/ui-project-2.jpg';
 
-import {
-  FiFacebook,
-  FiInstagram,
-  FiLinkedin,
-  FiTwitter,
-  FiYoutube,
-} from 'react-icons/fi';
-
 export const projectsData = [
   {
     id: 1,
@@ -22,7 +14,6 @@ export const projectsData = [
     ProjectHeader: {
       title: 'Google Health Platform UI',
       publishDate: 'May 15, 2022',
-      tags: 'Health / Web App',
     },
     ProjectImages: [
       {
@@ -63,18 +54,6 @@ export const projectsData = [
           details: 'Integrating real-time data analytics for medical insights.',
         },
       ],
-      SocialSharingHeading: 'Share This',
-      SocialSharing: [
-        { id: 1, name: 'Twitter', icon: <FiTwitter />, url: 'https://twitter.com/google' },
-        { id: 2, name: 'Instagram', icon: <FiInstagram />, url: 'https://instagram.com/google' },
-      ],
-    },
-    RelatedProject: {
-      title: 'Related Projects',
-      Projects: [
-        { id: 1, title: 'Web Analytics Dashboard', img: WebImage1 },
-        { id: 2, title: 'Cloud Management System', img: UIImage2 },
-      ],
     },
   },
   {
@@ -85,7 +64,6 @@ export const projectsData = [
     ProjectHeader: {
       title: 'Phoenix Agency App',
       publishDate: 'Sep 10, 2023',
-      tags: 'Mobile / Agency',
     },
     ProjectImages: [
       { id: 1, title: 'Main Dashboard', img: MobileImage2 },
@@ -114,17 +92,6 @@ export const projectsData = [
           details: 'Creating a seamless UX for various marketing tools.',
         },
       ],
-      SocialSharingHeading: 'Share This',
-      SocialSharing: [
-        { id: 1, name: 'Facebook', icon: <FiFacebook />, url: 'https://facebook.com/phoenixdigital' },
-      ],
-    },
-    RelatedProject: {
-      title: 'Related Projects',
-      Projects: [
-        { id: 1, title: 'Marketing Insights App', img: MobileImage1 },
-        { id: 2, title: 'Digital Strategy Platform', img: WebImage1 },
-      ],
     },
   },
   {
@@ -135,7 +102,6 @@ export const projectsData = [
     ProjectHeader: {
       title: 'Project Management Dashboard',
       publishDate: 'Dec 18, 2021',
-      tags: 'UI/UX / Management',
     },
     ProjectImages: [
       { id: 1, title: 'Dashboard View', img: UIImage1 },
@@ -164,17 +130,6 @@ export const projectsData = [
           details: 'Enhancing team collaboration features and data visualization.',
         },
       ],
-      SocialSharingHeading: 'Share This',
-      SocialSharing: [
-        { id: 1, name: 'LinkedIn', icon: <FiLinkedin />, url: 'https://linkedin.com/in/pm-solutions' },
-      ],
-    },
-    RelatedProject: {
-      title: 'Related Projects',
-      Projects: [
-        { id: 1, title: 'UI Design Kit', img: UIImage2 },
-        { id: 2, title: 'Web Management Platform', img: WebImage1 },
-      ],
     },
   },
   {
@@ -185,7 +140,6 @@ export const projectsData = [
     ProjectHeader: {
       title: 'Cloud Storage UI Design',
       publishDate: 'Feb 14, 2022',
-      tags: 'UI / Cloud',
     },
     ProjectImages: [
       { id: 1, title: 'Storage Dashboard', img: UIImage2 },
@@ -214,17 +168,6 @@ export const projectsData = [
           details: 'Designing a user-friendly interface to organize and manage files seamlessly.',
         },
       ],
-      SocialSharingHeading: 'Share This',
-      SocialSharing: [
-        { id: 1, name: 'YouTube', icon: <FiYoutube />, url: 'https://youtube.com/cloudify' },
-      ],
-    },
-    RelatedProject: {
-      title: 'Related Projects',
-      Projects: [
-        { id: 1, title: 'Backup Management System', img: MobileImage2 },
-        { id: 2, title: 'Secure Cloud Platform', img: WebImage1 },
-      ],
     },
   },
   {
@@ -235,7 +178,6 @@ export const projectsData = [
     ProjectHeader: {
       title: 'Social Networking App',
       publishDate: 'Jan 20, 2023',
-      tags: 'Mobile / Social',
     },
     ProjectImages: [
       { id: 1, title: 'User Profile Page', img: MobileImage1 },
@@ -264,17 +206,6 @@ export const projectsData = [
           details: 'Ensuring smooth real-time communication and data updates.',
         },
       ],
-      SocialSharingHeading: 'Share This',
-      SocialSharing: [
-        { id: 1, name: 'Instagram', icon: <FiInstagram />, url: 'https://instagram.com/socialhub' },
-      ],
-    },
-    RelatedProject: {
-      title: 'Related Projects',
-      Projects: [
-        { id: 1, title: 'Messaging App', img: MobileImage2 },
-        { id: 2, title: 'Community Platform', img: WebImage2 },
-      ],
     },
   },
   {
@@ -285,7 +216,6 @@ export const projectsData = [
     ProjectHeader: {
       title: 'Design System for Apple Products',
       publishDate: 'Oct 5, 2022',
-      tags: 'Web / Design System',
     },
     ProjectImages: [
       { id: 1, title: 'Component Library', img: WebImage1 },
@@ -313,17 +243,6 @@ export const projectsData = [
           id: 1,
           details: 'Establishing a unified design language across multiple Apple products.',
         },
-      ],
-      SocialSharingHeading: 'Share This',
-      SocialSharing: [
-        { id: 1, name: 'LinkedIn', icon: <FiLinkedin />, url: 'https://linkedin.com/company/apple' },
-      ],
-    },
-    RelatedProject: {
-      title: 'Related Projects',
-      Projects: [
-        { id: 1, title: 'Developer Toolkit', img: UIImage1 },
-        { id: 2, title: 'Apple Marketing App', img: MobileImage1 },
       ],
     },
   },
