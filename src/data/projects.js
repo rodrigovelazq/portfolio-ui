@@ -10,10 +10,12 @@ import DNCP02 from '../images/dncp/dncp02.png';
 import MONITOR01 from '../images/monitor/monitor01.png';
 import MONITOR02 from '../images/monitor/monitor02.png';
 import MONITOR03 from '../images/monitor/monitor03.png';
+import MONITOR04 from '../images/monitor/monitor04.png';
 import ELUMEN01 from '../images/elumen/elumen01.jpg';
 import ELUMEN02 from '../images/elumen/elumen02.jpg';
 import ELUMEN03 from '../images/elumen/elumen03.png';
 import ELUMEN04 from '../images/elumen/elumen04.png';
+import ELUMEN05 from '../images/elumen/elumen05.png';
 import SIEMBRA01 from '../images/siembra/siembra01.png';
 
 export const projectsData = [
@@ -63,7 +65,7 @@ export const projectsData = [
     id: 2,
     title: "Curriculum Development System",
     category: "Web Application",
-    img: ELUMEN01,
+    img: ELUMEN05,
     ProjectHeader: {
       title: "University-Level Curriculum System",
       publishDate: "Mar 2021 - Jun 2023",
@@ -186,7 +188,7 @@ export const projectsData = [
     id: 5,
     title: "GPS Tracking System",
     category: "Web Application",
-    img: MONITOR01,
+    img: MONITOR04,
     ProjectHeader: {
       title: "Vehicle GPS Tracking and Control",
       publishDate: "Jan 2018 - Nov 2019",
